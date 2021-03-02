@@ -1,0 +1,387 @@
+<!-- /* NOTE - I created this site to improve my CSS skills. Hence, I use extensive custom properties which could have been easily implemented using bootstrap.  I use bootstrap mostly for grid and flex alignment.*/
+/* * Fully bootstrap built version of this site will be available soon. */ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+      <link rel="shortcut icon" type="image/png" href="./img/icon.png" />
+      <title>Brisk Associates | Premier Asset Management Firm</title>
+
+      <!-- Scroll reveal -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.7/scrollreveal.min.js" integrity="sha512-yrp2XCY0JvwOgu87K/vTN3IIHolfAJL3SMsFu0ujdKeWWMmFhClABdlxna2TfOhMqX49GbmsIpbZ6fVBE7gleQ==" crossorigin="anonymous"></script>
+
+      <!-- CDNJS Jquery script -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ==" crossorigin="anonymous"></script>
+
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />
+      <!-- Bootstrap JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg==" crossorigin="anonymous"></script>
+
+      <!-- Icons -->
+      <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+      <!-- Custom CSS -->
+      <link rel="stylesheet" href="./style.css">
+
+      <!-- Custom JS -->
+      <script defer src="./script.js"></script>
+
+<body>
+      <div class="wrapper" id="top">
+            <!--------------- Hero --------------->
+            <!-- Hero bg -->
+            <div class="video-container">
+                  <video playsinline autoplay muted loop>
+                        <source src="./hero-bg.mp4" type="video/mp4">
+                  </video>
+            </div>
+
+            <!-- Hero content -->
+            <div class="header">
+                  <h1>Stay Invested.</h1>
+                  <h2>Stay Secured.</h2>
+            </div>
+            <!---------------Hero--------------->
+
+            <!--------------- Navbar--------------->
+            <!-- Desktop nav -->
+            <nav class="nav">
+                  <!-- Page brand -->
+                  <span id="brand">
+                        <a href="#top">Brisk</a>
+                  </span>
+
+                  <!-- Desktop menu -->
+                  <ul id="menu">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                  </ul>
+
+                  <div id="toggle">
+                        <div class="span">Menu</div>
+                  </div>
+            </nav>
+
+            <!-- Tablet or mobile nav -->
+            <div id="menucta">
+                  <div class="close-btn">Close</div>
+
+                  <!-- Tablet or mobile menu -->
+                  <ul id="menu">
+                        <li><a href="#top">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                  </ul>
+            </div>
+            <!--------------Navbar--------------->
+            
+            <!-- Body wrappper -->
+            <div class="main-container">
+           
+            <!-- About section-->
+            <a name="about"></a>
+           <section class="about">
+                  <div class="container-fluid">
+                        <div class="section-data">
+                              <!-- Main heading -->
+                              <div class="row">
+                                    <div class="col-md-2"></div>
+                                    <div class="col-md-2 section-index">1.</div>
+                                    <div class="col-md-8 section-heading">Who We Are</div>
+                              </div>
+
+                              <!-- Sub-heading -->
+                              <div class="row">
+                                    <div class="col-md-4"></div>
+                                    <div class="col-md-6 section-subheading"><h1>Brisk Associates is a premier asset management firm, focused on investing capital on behalf of private institutions and individuals .</h1></div>
+                              </div>
+
+                              <!-- Desc -->
+                              <div class="row">
+                                    <div class="col-md-4"></div>
+                                    <div class="col-md-6 section-info">Our mission is to focus on unique insights and invest in a diverse portfolio using the most sophisticated tools one can get their hands on. We pride ourselves in having the unique ability to think outside of the box, analyzing and curating each peice of information and making slick investments that an average joe would think as insane.</div>
+                              </div>
+
+                              <!-- Button -->
+                              <div class="row">
+                                    <div class="col-md-4"></div>
+                                    <div class="col-md-8 learn-more">
+                                          <button id="btn">Learn more</button>
+                                    </div>
+                              </div>
+                        </div>
+                        <br><br>
+                  </div>
+           </section>
+            <!-- About section-->
+
+
+           <!-- Service section -->
+            <a name="services"></a>
+           <section class="services">
+            <div class="container-fluid">
+                  <div class="section-data">
+
+                        <!-- Main heading -->
+                        <div class="row">
+                              <div class="col-md-2"></div>
+                              <div class="col-md-2 section-index">2.</div>
+                              <div class="col-md-8 section-heading">What we do</div>
+                        </div>
+
+                        <!-- Sub-heading -->
+                        <div class="row">
+                              <div class="col-md-4"></div>
+                              <div class="col-md-6 section-subheading"><h1>We invest across multiple classes including but not limited to the listed assets. We invest in infrastructure, sciences, equity and startups as well.</h1></div>  
+                        </div>
+
+                        <!-- Desc -->
+                        <div class="row service">
+                              <div class="col-md-4"></div>
+                              <div class="col-md-3">
+                                    <div class="icon">
+                                          <ion-icon name="home-outline"></ion-icon>
+                                    </div>
+                                    <div class="icon-title">
+                                          Real Estate Investments<br>
+                                          $18B
+                                    </div>
+                              </div>
+
+                              <div class="col-md-3">
+                                          <div class="icon">
+                                                <ion-icon name="cash-outline"></ion-icon>
+                                          </div>
+                                          <div class="icon-title">
+                                                Options & Securities <br>
+                                          $7B
+                                          </div>
+                              </div>
+                        </div>
+
+                        <div class="row service">
+                                    <div class="col-md-4"></div>
+                                    <div class="col-md-3">
+                                          <div class="icon">
+                                                <ion-icon name="radio-outline"></ion-icon>
+                                          </div>
+                                          <div class="icon-title">
+                                               Hedge Fund Solutions<br>
+                                               $22B
+                                          </div>
+                                    </div>
+      
+                                    <div class="col-md-3">
+                                                <div class="icon">
+                                                      <ion-icon name="card-outline"></ion-icon>
+                                                </div>
+                                                <div class="icon-title">
+                                                      Credit & Insurace<br>
+                                                      $13B
+                                                </div>
+                                    </div>
+                              </div>
+                  </div>
+            </div>
+           </section>
+            <!-- Service section -->
+
+            <!-- Team section -->
+            <a name="team"></a>
+            <section class="team">
+                  <div class="container-fluid">
+                        <!-- Main heading -->
+                        <div class="row">
+                              <div class="col-md-2"></div>
+                              <div class="col-md-2 section-index">3.</div>
+                              <div class="col-md-8 section-heading">Meet the Team</div>
+                        </div>
+
+                        <!-- Sub-heading -->
+                        <div class="row">
+                              <div class="col-md-4"></div>
+                              <div class="col-md-6 section-subheading"><h1>Under the leadership of co-founders Mr.Hogg and Mr.Ferrell, as well as all of our hardworking team, we have grown from $1B to $60B+ within 4 years.</h1></div>
+                        </div>
+
+                        <!-- Desc -->
+                        <div class="row members">
+                              <div class="col-md-4"></div>
+                              <div class="col-md-2">
+                                    <div class="team-member">
+                                          <div class="team-img team-one"></div>
+                                    </div>
+                                    <div class="team-title">
+                                          <h5>Grayson Hogg</h5>
+                                          <span>Chairman & CEO</span>
+                                    </div>
+                              </div>
+
+                              <div class="col-md-2">
+                                    <div class="team-member">
+                                          <div class="team-img team-two"></div>
+                                    </div>
+                                    <div class="team-title">
+                                          <h5>Clifford Ferrell</h5>
+                                          <span>President & MP </span>
+                                    </div>
+                              </div>
+
+                              <div class="col-md-2">
+                                    <div class="team-member">
+                                          <div class="team-img team-three"></div>
+                                    </div>
+                                    <div class="team-title">
+                                          <h5>Cercei Bishop</h5>
+                                          <span>Portfolio Manager </span>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <!-- Team section -->
+
+            <!-- Newsletter section -->
+           <section class="newsletter">
+                  <div class="container">
+                        <div class="row">
+                              <!-- Main heading -->
+                              <div class="col-md-12">
+                                    <div class="news-data">
+                                    <div class="section-subheading">
+                                          <h1>Sign up for updates.</h1>
+                                    </div>
+
+                                    <div class="input-group">
+                                          <input type="email" class="form-control" placeholder="Your email goes here">
+                                          <span class="input-group-btn">
+                                                <button class="btn" type="submit">Subscribe</button>
+                                          </span>
+                                    </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+           </section>
+           <!-- Newsletter section -->
+
+            <!-- Contact section -->
+            <a name="contact"></a>
+            <section class="contact">
+                  <div class="container-fluid">
+
+                        <!-- Main heading -->
+                        <div class="row">
+                              <div class="col-md-2"></div>
+                              <div class="col-md-2 section-index">4.</div>
+                              <div class="col-md-8 section-heading">Contact us</div>
+                        </div>
+
+                        <!-- Sub-heading -->
+                        <div class="row">
+                              <div class="col-md-4"></div>
+                              <div class="col-md-6 section-subheading"><h1>All the right things in one place.<br> Join us now!</h1></div>
+                        </div>
+
+                        <!-- Desc -->
+                        <div class="row">
+                              <div class="col-md-4"></div>
+                              <div class="col-md-6">
+                                    <form name="contact-form" id="contact-form">
+                                          <ul>
+                                                <li >
+                                                      <label for="contact-name">Name :</label>
+                                                      <div class="textarea">
+                                                            <input type="text" name="contact-name" id="contact-name" value="" required>
+                                                      </div>
+                                                </li>
+
+                                                <br>
+
+                                                <li >
+                                                      <label for="contact-email">Email :</label>
+                                                      <div class="textarea">
+                                                            <input type="email" name="contact-email" id="contact-email" value="" required>
+                                                      </div>
+                                                </li>
+
+                                                <br>
+
+                                                <li >
+                                                     <label for="contact-project">Message :</label> 
+                                                     <div class="textarea">
+                                                     <textarea name="contact-project" id="contact-project" rows="6" required></textarea>
+                                                     </div>
+                                                </li>
+                                          </ul>
+                                          <button type="submit" name="contact-submit" id="contact-submit">Submit</button>
+                                    </form>
+                              </div>
+                        </div>
+                        <br><br>
+                  </div>
+            </section>
+            <!-- Contact section -->
+
+            <!-- Footer section -->
+            <div class="footer">
+                  <div class="container">
+                        <!-- Main footer -->
+                        <div class="info">
+                              <div class="row text-center">
+                                    <div class="col-md-2" >
+                                          <p>About</p>
+                                    </div>
+                                    <div class="col-md-2" >
+                                          <p>Security</p>
+                                    </div>
+                                    <div class="col-md-2" >
+                                          <p>Terms</p>
+                                    </div>
+                                    <div class="col-md-2" >
+                                          <p>Privacy</p>
+                                    </div>
+                                    <div class="col-md-2" >
+                                          <p>Careers</p>
+                                    </div>
+                                    <div class="col-md-2" >
+                                          <p>Legal</p>
+                                    </div>
+                              </div>
+
+                              <!-- Sub footer -->
+                              <div class="row">
+                                    <div class="col-md-12" id="media">
+                                          <ul>
+                                                <li><ion-icon name="logo-linkedin"></ion-icon></li>
+
+                                                <li><ion-icon name="logo-facebook"></ion-icon></li>
+
+                                                <li><ion-icon name="logo-instagram"></ion-icon></li>
+
+                                                <li><ion-icon name="logo-youtube"></ion-icon></li>
+
+                                                <li><ion-icon name="logo-twitter"></ion-icon></li>
+
+                                          </ul>
+                                    </div>
+                                    <br><br>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+            <!-- Footer section -->
+      </div>
+      <!-- Main container -->
+</div>
+<!-- Wrapper -->
+
+</body>
+</html>
