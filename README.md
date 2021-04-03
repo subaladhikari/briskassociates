@@ -12,13 +12,11 @@ The site is built with Bootstrap 4.6.0
     * Compilation with Brisk Bank site - Work in progress.
 
 ## Development
-While browsing through Awwwards.com, I stumbled upon a website for a French hotel with dark and gold accent. Then I got the idea to build an extension for the Brisk Bank which is one of my other project. Visit my portfolio for full detail.
+While browsing through Awwwards.com, I stumbled upon a website for a French hotel with dark and gold accent. Then I got the idea to build an extension for the Brisk Bank which is one of my other project. Visit my portfolio for full detail. Archieved Collection.
 
 ## Owner
 ``Designed & Developed`` by – Subal Adhikari – subaladhikari01@gmail.com
 
-Visit my ``portfolio`` for more information.
-[https://subaladhikari.github.io/portfolio/]
 
 ## Contributing
 1. Fork it (<https://github.com/yourname/yourproject/fork>)
